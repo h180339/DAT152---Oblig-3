@@ -29,3 +29,20 @@ body {
 p {
     margin: 1em;
 }
+
+/*------------------------------------------------*/
+/*----------------REG-box-------------------------*/
+/*------------------------------------------------*/
+
+
+.reg-box{
+    background-color: #ffffff;
+    height: 500px;
+    width: 300px;
+    margin: 10px 0px 0px 20px;
+}
+
+.reg-box p {
+    color: black;
+    font-size: 15px;
+}
