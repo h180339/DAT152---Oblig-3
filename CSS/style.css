@@ -22,10 +22,9 @@ a.active {
     background-color: #00673b;
 }
 body {
-    color: white;
     margin: auto;
     background-color: #424242;
 }
 p {
-    margin: 1em;
+    margin: 0.5em 2em;
 }
