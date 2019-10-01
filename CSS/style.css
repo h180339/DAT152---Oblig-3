@@ -1,3 +1,31 @@
-#tekst {
-    color: blue
+#navigationbar {
+    padding: 1em;
+    margin: 0;
+    background-color: #222222;
+}
+a {
+    font-size: 1em;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    font-family: sans-serif;
+}
+a:hover {
+    background-color: orange;
+
+}
+a:active {
+    color: red;
+}
+a.active {
+    background-color: #00673b;
+}
+body {
+    color: white;
+    margin: auto;
+    background-color: #424242;
+}
+p {
+    margin: 1em;
 }
