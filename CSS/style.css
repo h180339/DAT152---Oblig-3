@@ -22,11 +22,11 @@ a.active {
     background-color: #00673b;
 }
 body {
+    color: white;
     margin: auto;
     background-color: #424242;
 }
 p {
-<<<<<<< HEAD
     margin: 1em;
 }
 
@@ -45,7 +45,6 @@ p {
 .reg-box p {
     color: black;
     font-size: 15px;
-=======
-    margin: 0.5em 2em;
->>>>>>> 0ee650fc0d91511df5523f0f22e712e4f99676e0
+    margin-top: 
+
 }
