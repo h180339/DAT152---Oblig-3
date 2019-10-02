@@ -88,18 +88,18 @@ td {
     height: 500px;
     width: 300px;
     margin: 40px 0px 0px 20px;
-}
-
-.reg-box p {
     color: black;
     font-size: 15px;
     margin-top:  10px;
 }
+h4{
+    color: black;
+    font-size: 60%;
+}
 
-.boxNav {
-    background-color: yellow;
-    height: 40px;
-    width: auto;
+section {
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 
@@ -111,6 +111,6 @@ td {
 }
 
 .carTypeImg {
-    height: 100;
-    width: 100px
+    height: 100px;
+    width: auto;
 }
