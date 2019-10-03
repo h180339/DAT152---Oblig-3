@@ -23,27 +23,49 @@
 
     <article>
             <section class="reg-box">
-                <nav>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class="boxNav">Bestill en bil</td>
-                                <td class="boxNav">Vis/endre/avbestill</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </nav>
-
-                <section>
-                    <div class="location-date-arrival">
-                        <div> <h3>Sted eller Flyplasskode</h3>
-                            <span>(by, land eller Flyplasskode)</span>
-                        </div>
-                        <div>
-                            <input id="inputPlace" class="place-input"></div>
-                            <a href="#">Finn lokasjon</a>
-                        </div>
+                <div id="navigationbar">
+                    <nav>
+                        <a href="#" class="active">Hjem</a>
+                        <a href="#">Leiebil</a>
+                    </nav>
+                </div>
+                <section class="Pickup-serction">
+                    <div class="pickup-place-input">
+                        <p> Sted eller flyplasskode (by, land eller flyplasskode)</p>
+                        <input id="pickupvalue" type="text"/>
                     </div>
+                    <a href="#">Finn Lokasjon</a>
+                </section>
+
+                <section class="time-section">
+                    <div class="pick-up-time">
+                        <input id="pickupvalue" type="date"/>
+                        <input id="pickupHour" type="time"/>
+                    </div>
+                    <div class="delivery-time">
+                        <input id="deliverInput" type="date"/>
+                        <input id="deliverHour" type="time"/>
+                    </div>
+                </section>
+                </div>
+
+                <section class="velg-bil-serction">
+                    <label for="bilvalg">bilvalg</label>
+                    <div>
+                        <select id="bilvalg" class="bil-valg"></select>
+                    </div>
+                    <div class="rabatpoeng">
+                        <input type="checkbox" class="rabatpoeng-text">
+                        Bruk mine Rewardspoeng
+                        </input>
+                    </div>
+
+                    <div class="rabat">
+                        <input type="checkbox" class="rabat">
+                        Jeg har rabatt (CDP, PC, kupong eller annen kode -
+                        </input>
+                    </div>
+
                 </section>
             </section>
         </article>
