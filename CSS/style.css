@@ -24,6 +24,11 @@ body {
     background-position: center;
     height: 100vh;
 }
+.backgroundtext {
+    right: 3em;
+    position: absolute;
+    white-space:nowrap;
+}
 
 /*------------------------------------------------*/
 /*----------------Nav Bar-------------------------*/
