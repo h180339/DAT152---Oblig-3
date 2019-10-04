@@ -49,14 +49,17 @@ nav > a {
     padding: 1em;
     font-family: sans-serif;
 }
-a:hover {
+
+nav > a:hover {
     background-color: orange;
 
 }
-a:active {
+
+nav > a:active {
     color: red;
 }
-a.active {
+
+nav > a.active {
     background-color: #00673b;
 }
 
