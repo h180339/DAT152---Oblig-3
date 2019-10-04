@@ -5,8 +5,21 @@ html{
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.705), rgba(0,0,0,0.699)), url(./img/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
 
-h2 {
+h1, h2, h3 {
+    margin: 1em;
+}
+.backgroundtext {
+    right: 3em;
+    position: absolute;
+    white-space:nowrap;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 200%;
@@ -16,18 +29,6 @@ h2 {
     float: right;
     margin-right: 50px;
     margin-top: 100px;
-}
-
-body {
-    background-image: linear-gradient(rgba(0,0,0,0.705), rgba(0,0,0,0.699)), url(./img/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-.backgroundtext {
-    right: 3em;
-    position: absolute;
-    white-space:nowrap;
 }
 
 /*------------------------------------------------*/
@@ -64,6 +65,7 @@ p {
 }
 
 table {
+    margin: 1em;
     border-radius: 5px;
     box-shadow: 2px 2px 10px;
     color: black;
